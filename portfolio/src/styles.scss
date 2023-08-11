@@ -1,0 +1,31 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,51,44,1) 51%, rgba(0,115,145,1) 100%);
+  padding: 1rem;
+  height: 96vh;
+}
+app-root {
+  height: 100%;
+}
+
+main {
+  height: 80vh;
+  background-color: aliceblue;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

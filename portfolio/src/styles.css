@@ -1,0 +1,40 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(14, 51, 44) 51%, rgb(0, 115, 145) 100%);
+  padding: 1rem;
+  height: 96vh;
+}
+
+app-root {
+  height: 100%;
+}
+
+main {
+  height: 80vh;
+  background-color: aliceblue;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */
