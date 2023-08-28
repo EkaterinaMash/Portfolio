@@ -1,5 +1,5 @@
 footer {
-  padding: 1rem;
+  padding: 2rem 1rem;
 }
 
 img {
@@ -9,6 +9,7 @@ img {
 
 .contacts {
   display: flex;
+  justify-content: flex-end;
   gap: 1.5rem;
 }
 
