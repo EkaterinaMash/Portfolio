@@ -7,7 +7,7 @@ body {
   padding: 2rem;
   height: 96vh;
   font-family: 'Roboto', sans-serif;
-  @media (max-width: 360px) {
+  @media (max-width: 450px) {
     padding: 0;
   }
 }
@@ -19,6 +19,9 @@ app-root {
 
 main {
   padding: 1rem 2rem 2rem;
+  @media (max-width: 450px) {
+    padding: 0;
+  }
 }
 
 p, ul, li {

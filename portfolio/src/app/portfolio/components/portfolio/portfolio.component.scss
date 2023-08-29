@@ -16,6 +16,9 @@ mat-card {
   @media (min-width: 1400px) {
     width: 120rem;
   }
+  @media (max-width: 450px) {
+    padding: 0;
+  }
 }
 
 mat-card-title {
@@ -30,16 +33,21 @@ mat-card-content {
   @media (max-width: 850px) {
     flex-wrap: wrap;
   }
+  @media (max-width: 550px) {
+    justify-content: center;
+  }
 }
 
 img {
   width: 40rem;
-  height: 30rem;
+  height: auto;
   border-radius: 0.5rem;
   border: 0.5rem solid black;
   @media (max-width: 550px) {
-    width: 20rem;
-    height: 15rem;
+    width: 30rem;
+  }
+  @media (max-width: 350px) {
+    width: 25rem;
   }
 }
 
@@ -64,6 +72,9 @@ img {
   flex-wrap: wrap;
   margin: 1.8rem 0 1.8rem;
   gap: 2rem;
+  @media (max-width: 320px) {
+    justify-content: center;
+  }
 
   a {
     color: whitesmoke;
